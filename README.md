@@ -1,3 +1,3 @@
-# docker-fibonacci
+# k8s-multi-fibonacci
 
-A react/express application that calculates the fibonacci number at a certain value. Uses docker to containerize multiple services(postgres, redis, react).
+A react/express application that calculates the fibonacci number at a certain value. Uses kubernetes to containerize multiple services(postgres, redis, react) and deploy.

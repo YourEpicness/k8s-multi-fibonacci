@@ -25,3 +25,6 @@ client/coverage
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# secrets
+service-account.json

@@ -23,7 +23,7 @@ before_install:
 
 # run some tests
 script:
-  - docker run jbdiop/react-test npm run test
+  - docker run -e CI=true jbdiop/react-test npm run test
 
 # deploy using our custom script
 deploy:
